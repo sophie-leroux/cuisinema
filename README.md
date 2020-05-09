@@ -1,2 +1,0 @@
-# cuisinema
-TP en groupe
