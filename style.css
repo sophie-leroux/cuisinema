@@ -1,0 +1,112 @@
+body{
+    font-size: 0.9em;
+}
+.zone1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.zone1 ul{
+    display: flex;
+    align-items: center;
+}
+
+.zone1 ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+.zone1 ul li.last{
+    border:1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 2s background;
+}
+
+.zone1 ul li.last:hover{
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+}
+/* https://flexboxfroggy.com/ */
+
+/*https://www.youtube.com/watch?v=JJSoEo8JSnc*/
+
+.wrap{
+    width: 60%;
+    margin: 0 auto;
+}
+width: 1000px;
+margin: auto;
+
+    width:1000px;   
+    margin:auto;
+}
+
+
+.zone2{
+    text-align: center;
+   
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(157, 81, 228, 0.651);
+}
+
+
+.zone3 {
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    width: 320px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    border-radius: 10px ;
+    
+}
+article a{
+   
+    display:block;
+    background-color: thistle;
+    padding: 0.8em 2em;
+    margin: 0 20px 10px 20px;
+    border-radius: 5px ;
+    color:#000;
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+article a:hover{
+    background-color: rgba(166, 107, 233, 0.747);
+    color:white;
+
+}
+
+
+.article1{
+    background-image: url("img/entree.jpg");
+    
+
+}
+
+
+.article2{
+    background-image: url("img/plat.jpg");
+
+}
+ .article3{
+     background-image: url("img/dessert.jpg");
+
+ }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1ace9e67b707a49ea54228bac013b6787e931ab8
+>>>>>>> cd055511b22c99af2cc0b71707fb7c838820f853
+=======
+>>>>>>> d1ce79bbd11e56501cf83da5191bb95c423b553b
